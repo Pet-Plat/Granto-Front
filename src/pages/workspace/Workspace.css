@@ -83,3 +83,67 @@ body {
 .input-box button:hover {
     background-color: #620f0f;
 }
+
+/* modal window styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal-content button {
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #992020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* block register style */
+.registration-link {
+    margin-top: 20px;
+  }
+  
+  .registration-link p {
+    font-size: 0.9rem;
+  }
+  
+  .registration-link .register-btn {
+    background: none;
+    border: none;
+    color: #992020;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.9rem;
+  }
+  
+  
