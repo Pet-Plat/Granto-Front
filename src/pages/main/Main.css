@@ -7,16 +7,16 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 100vh; 
+    height: 408px;
+    margin-top: 3%;
   }
   
   
   .imgWelcome {
-    position: relative;
+    
+    position:relative;
     width: 612px;
     height: 408px;
-    margin-top: -10%;
-    
   }
   
   
@@ -64,7 +64,6 @@
   */
   
 .wrapperText{
-    margin-top: -10%;
     width: 50%;
     margin-left: 25%;
 }

@@ -1,12 +1,8 @@
 import './Main.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Header from '../../components/header/Header';
-import Footer from '../../components/footer/Footer';
+import { Link } from 'react-router-dom';
 
 function Main() {
   return (
-    <Router>
-      <Header />
       <div id="wrapper">
         <div id="wrapperImg">
           <div className="imgWelcome">
@@ -38,13 +34,10 @@ function Main() {
             <p>
               Добро пожаловать на путь к успеху с Granto!
             </p>
-
-            <span className='tryBot'>Попробуйте нашего <Link to="/">бота</Link>, который поможет вам</span>
+            <span className='tryBot'>Попробуйте нашего <Link to="/workspace">бота</Link>, который поможет вам</span>
           </div>
         </div>
       </div>
-      <Footer />
-    </Router>
   );
 }
 
