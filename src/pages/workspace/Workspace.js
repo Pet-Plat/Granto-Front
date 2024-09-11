@@ -21,7 +21,7 @@ function Workspace() {
               <button type="button" onClick={handleCloseModal}>Закрыть</button>
             </form>
             <div className="registration-link">
-              <p>Нет аккаунта? <Link to="/"><button className="register-btn">Зарегистрироваться</button></Link></p>
+              <p>Нет аккаунта? <Link to="/registration"><button className="register-btn">Зарегистрироваться</button></Link></p>
             </div>
           </div>
         </div>

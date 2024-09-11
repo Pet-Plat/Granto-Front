@@ -10,7 +10,7 @@ function Header() {
       <nav className="nav-links">
         <Link to="/">Главная</Link>
         <Link to="/workspace">Чат</Link>
-        <Link to="/">Профиль</Link>
+        <Link to="/profile">Профиль</Link>
         <Link to="/">Контакты</Link>
       </nav>
     </header>
